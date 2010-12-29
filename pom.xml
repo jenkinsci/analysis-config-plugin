@@ -3,7 +3,13 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.jvnet.hudson.plugins</groupId>
+  <parent>
+    <groupId>org.jvnet.hudson.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>1.388</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
   <artifactId>analysis-config</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <name>Static Analysis Plug-ins Tools Configuration</name>
