@@ -25,6 +25,7 @@
     <url>http://fisheye.hudson-ci.org/browse/Hudson/trunk/hudson/plugins/analysis-config</url>
   </scm>
 
+
   <build>
     <resources>
       <resource>
