@@ -90,9 +90,6 @@
         <module name="IllegalThrows"/>
         <module name="InnerAssignment"/>
         <module name="JUnitTestCase"/>
-        <module name="MagicNumber">
-          <property name="ignoreNumbers" value="-1, 0, 1, 2, 31"/>
-        </module>
         <module name="MissingSwitchDefault"/>
         <module name="ModifiedControlVariable"/>
         <module name="MultipleStringLiterals">
