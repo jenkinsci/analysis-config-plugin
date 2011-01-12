@@ -4,6 +4,9 @@
       <Class name="~.*" />
   </Match>
   <Match>
+      <Class name="~.Messages" />
+  </Match>
+  <Match>
       <Bug code="UwF, SIC, NP" />
       <Class name="~.*Test.*" />
   </Match>

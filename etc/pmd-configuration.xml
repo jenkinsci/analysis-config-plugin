@@ -56,6 +56,7 @@
     <exclude name="LongVariable"/>
     <exclude name="AbstractNaming"/>
     <exclude name="BooleanGetMethodName"/>
+    <exclude name="AvoidFieldNameMatchingMethodName"/>
   </rule>
   <rule ref="rulesets/optimizations.xml">
     <exclude name="LocalVariableCouldBeFinal"/>
