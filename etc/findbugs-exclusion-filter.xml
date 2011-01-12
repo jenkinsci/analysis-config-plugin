@@ -1,5 +1,9 @@
 <FindBugsFilter>
   <Match>
+      <Bug code="CD" />
+      <Class name="~.*" />
+  </Match>
+  <Match>
       <Bug code="UwF, SIC, NP" />
       <Class name="~.*Test.*" />
   </Match>
