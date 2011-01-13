@@ -5,6 +5,6 @@
     "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
 
 <suppressions>
-    <suppress checks="MultipleStringLiterals|MagicNumber" files=".*Test.java"/>
+    <suppress checks="MultipleStringLiterals|MagicNumber|.*Coupling" files=".*Test.java"/>
     <suppress checks=".*" files=".*jdepend/framework/.*"/>
 </suppressions>
