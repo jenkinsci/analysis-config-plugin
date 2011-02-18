@@ -20,8 +20,8 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/analysis-config-config.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/analysis-config-config.git</developerConnection>
+    <connection>scm:git:git://github.com/jenkinsci/analysis-config-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/analysis-config-plugin.git</developerConnection>
   </scm>
 
   <build>
