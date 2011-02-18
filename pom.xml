@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>analysis-config</artifactId>
-  <version>1.0.9-SNAPSHOT</version>
+  <version>1.0.9</version>
   <name>Static Analysis Plug-ins Tools Configuration</name>
   <packaging>jar</packaging>
   <description>Provides configuration files for the tools that analyze the Jenkins static code analysis plug-ins.</description>
