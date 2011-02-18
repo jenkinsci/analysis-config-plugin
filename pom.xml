@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.391</version>
+    <version>1.395</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -20,11 +20,9 @@
   </properties>
 
   <scm>
-    <connection>scm:svn:https://guest@svn.java.net/svn/hudson~svn/trunk/hudson/plugins/analysis-config</connection>
-    <developerConnection>scm:svn:https://svn.java.net/svn/hudson~svn/trunk/hudson/plugins/analysis-config</developerConnection>
-    <url>http://fisheye.hudson-ci.org/browse/Hudson/trunk/hudson/plugins/analysis-config</url>
+    <connection>scm:git:git://github.com/jenkinsci/analysis-config-config.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/analysis-config-config.git</developerConnection>
   </scm>
-
 
   <build>
     <resources>
@@ -62,8 +60,8 @@
 
   <distributionManagement>
     <repository>
-      <id>java.net-m2-repository</id>
-      <url>http://maven.hudson-labs.org:8081/content/repositories/releases/</url>
+      <id>maven.jenkins-ci.org</id>
+      <url>http://maven.jenkins-ci.org:8081/content/repositories/releases/</url>
     </repository>
   </distributionManagement>
 
