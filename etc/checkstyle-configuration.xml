@@ -192,8 +192,11 @@
     <module name="SuppressionCommentFilter">
         <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="All Checks"/>
     </module>
-    <module name="SuppressWithNearbyCommentFilter">
-    <property name="commentFormat" value="NOCHECKSTYLE"/>
-    <property name="checkFormat" value=".*"/>
+    <module name="SuppressionFilter">
+      <property name="file" value="${config_loc}/checkstyle-suppressions.xml"/>
+    </module>
+      <module name="SuppressWithNearbyCommentFilter">
+      <property name="commentFormat" value="NOCHECKSTYLE"/>
+      <property name="checkFormat" value=".*"/>
     </module>
 </module>
