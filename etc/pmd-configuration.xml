@@ -29,6 +29,8 @@
     </properties>
   </rule>
   <rule ref="rulesets/controversial.xml">
+    <exclude name="UseConcurrentHashMap"/>
+    <exclude name="AvoidLiteralsInIfCondition"/>
     <exclude name="AtLeastOneConstructor"/>
     <exclude name="DataflowAnomalyAnalysis"/>
     <exclude name="OnlyOneReturn"/>
@@ -64,7 +66,9 @@
     <exclude name="AvoidInstantiatingObjectsInLoops"/>
     <exclude name="UseStringBufferForStringAppends"/>
   </rule>
-  <rule ref="rulesets/strictexception.xml"/>
+  <rule ref="rulesets/strictexception.xml">
+    <exclude name="AvoidCatchingGenericException"/>
+  </rule>
   <rule ref="rulesets/strings.xml">
     <exclude name="AvoidDuplicateLiterals"/>
   </rule>
