@@ -77,7 +77,6 @@
         </module>
         <module name="CovariantEquals"/>
         <module name="DefaultComesLast"/>
-        <module name="DoubleCheckedLocking"/>
         <module name="EmptyStatement"/>
         <module name="EqualsHashCode"/>
         <module name="ExplicitInitialization"/>
