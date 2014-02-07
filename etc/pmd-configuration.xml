@@ -106,7 +106,6 @@
    <rule ref="rulesets/java/design.xml/AbstractClassWithoutAnyMethod"/>
    <rule ref="rulesets/java/design.xml/TooFewBranchesForASwitchStatement"/>
    <rule ref="rulesets/java/design.xml/LogicInversion"/>
-   <rule ref="rulesets/java/design.xml/GodClass"/>
    <rule ref="rulesets/java/logging-java.xml/MoreThanOneLogger"/>
    <rule ref="rulesets/java/logging-java.xml/LoggerIsNotStaticFinal"/>
    <rule ref="rulesets/java/logging-java.xml/SystemPrintln"/>
@@ -245,7 +244,6 @@
    <rule ref="rulesets/java/braces.xml/WhileLoopsMustUseBraces"/>
    <rule ref="rulesets/java/braces.xml/IfElseStmtsMustUseBraces"/>
    <rule ref="rulesets/java/braces.xml/ForLoopsMustUseBraces"/>
-   <rule ref="rulesets/java/j2ee.xml/UseProperClassLoader"/>
    <rule ref="rulesets/java/j2ee.xml/MDBAndSessionBeanNamingConvention"/>
    <rule ref="rulesets/java/j2ee.xml/RemoteSessionInterfaceNamingConvention"/>
    <rule ref="rulesets/java/j2ee.xml/LocalInterfaceSessionNamingConvention"/>
