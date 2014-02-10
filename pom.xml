@@ -4,7 +4,7 @@
 
   <groupId>org.jvnet.hudson.plugins</groupId>
   <artifactId>analysis-config</artifactId>
-  <version>1.0.34-SNAPSHOT</version>
+  <version>1.0.34</version>
   <name>Static Analysis Plug-ins Tools Configuration</name>
   <packaging>jar</packaging>
   <description>Provides configuration files for the tools that analyze the Jenkins static code analysis plug-ins.</description>
@@ -16,6 +16,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/analysis-config-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/analysis-config-plugin.git</developerConnection>
+    <tag>analysis-config-1.0.34</tag>
   </scm>
 
   <build>
