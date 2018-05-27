@@ -7,7 +7,7 @@
   </Match>
   <Match>
       <Bug code="NM" />
-      <Class name="~Assertions.*" />
+      <Class name="~.*Assertions.*" />
   </Match>
   <Match>
       <Bug code="CD" />
